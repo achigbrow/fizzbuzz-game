@@ -27,6 +27,7 @@ public static class SettingsFragment extends PreferenceFragmentCompat {
     PreferenceScreen screen = getPreferenceScreen();
     SeekBarPreference numDigits = (SeekBarPreference)
         screen.findPreference(getString(R.string.num_digits_key));
+    numDigits.setMin(1);
   }
 }
 }

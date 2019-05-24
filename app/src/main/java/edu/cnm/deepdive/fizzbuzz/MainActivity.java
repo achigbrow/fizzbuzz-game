@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
     super.onPause();
     Log.d("Trace", "Leaving onPause");
   }
-}
+
 
   @Override
   public boolean onCreateOptionsMenu(Menu menu) {
